@@ -1,7 +1,14 @@
+/* BORDER BOX UNIVERSAL RULE  ******************************/
+
 * {
     box-sizing: border-box;
 }
 
-li {
-    background-color: aqua;
+
+/* NAVIGATION BAR ******************************/
+
+
+.nav {
+    display: inline-block;
+
 }
