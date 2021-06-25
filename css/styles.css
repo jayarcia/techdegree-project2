@@ -1,14 +1,61 @@
 /* BORDER BOX UNIVERSAL RULE  ******************************/
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
+/*   
+GOOGLE FONT FAMILIES:
+	
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;       
+	 
+*/
+header {
+	position: relative;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+	background: rgb(110, 105, 105);
+	border-radius: 4px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
-/* NAVIGATION BAR ******************************/
+.logo {
+	font-family: "roboto", sans-serif;
+	color: #069370;
+	height: 50px;
+	font-size: 36px;
+	line-height: 60px;
+	padding: 0 20px;
+	background: #ccc;
+	text-align: center;
+	float: left;
+	font-weight: 700;
+	text-decoration: none;
+}
 
+nav {
+	float: right;
+}
 
-.nav {
-    display: inline-block;
+.clearfix {
+	clear: both;
+}
 
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px;
+	text-decoration: none;
 }
